@@ -1,9 +1,8 @@
 import express from "express";
-// const express = require("express");
+
 const app = express();
 
-app.get("/api/todo", (req, res) => {
-  // res.json(todoList);
+app.get("/", (req, res) => {
   res.json({
     hello: "hi",
   });
